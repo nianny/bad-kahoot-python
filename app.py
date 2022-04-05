@@ -1,6 +1,7 @@
 from pynput import keyboard, mouse
 from pynput.mouse import Button, Controller
 from pynput.keyboard import Key, Listener, KeyCode
+import asyncio
 
 mouse = Controller()
 def show(key):
